@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "0671299f-b910-46be-bafd-33edcde66980",
+		"name": "Gectaro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30372762"
+	},
+	"item": [
+		{
+			"name": "экспорт журнала работ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+					}
+				],
+				"url": {
+					"raw": "https://app.gectaro.com/v1/projects/84017/building-log?",
+					"protocol": "https",
+					"host": [
+						"app",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"projects",
+						"84017",
+						"building-log"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://app.gectaro.com/v1/projects/84017/building-log?",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+							}
+						],
+						"url": {
+							"raw": "https://app.gectaro.com/v1/projects/84017/building-log",
+							"protocol": "https",
+							"host": [
+								"app",
+								"gectaro",
+								"com"
+							],
+							"path": [
+								"v1",
+								"projects",
+								"84017",
+								"building-log"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Jun 2024 19:13:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1182"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Mon, 10 Jun 2024 07:23:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "ETag",
+							"value": "\"6666a9fd-49e\""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html>\n    <head>\n        <base href=\"/\">\n        <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"/>\n        <meta name=\"viewport\" content=\"width=1440; initial-scale=0.2; user-scalable=0;\">\n        <meta name=\"referrer\" content=\"no-referrer-when-downgrade\">\n        <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic-ext\" rel=\"stylesheet\">\n        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"favicon.ico\"/>\n        <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.8.1/css/solid.css\">\n        <title>Gectaro</title>\n        <!-- Google Tag Manager -->\n        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-K4BL37G');</script>\n        <!-- End Google Tag Manager -->\n        <link href=\"/vendor.10a2ddaa.css\" rel=\"stylesheet\">\n        <link href=\"/main.10a2ddaa.css\" rel=\"stylesheet\">\n    </head>\n    <body>\n        <!-- Google Tag Manager (noscript) -->\n        <noscript>\n            <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-K4BL37G\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n        </noscript>\n        <!-- End Google Tag Manager (noscript) -->\n        <!-- Roistat -->\n        <script>window.roistatCookieDomain = 'gectaro.com';</script>\n        <script>\n    (function(w, d, s, h, id) {\n      w.roistatProjectId = id; w.roistatHost = h;\n      var p = d.location.protocol == \"https:\" ? \"https://\" : \"http://\";\n      var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? \"/dist/module.js\" : \"/api/site/1.0/\"+id+\"/init?referrer=\"+encodeURIComponent(d.location.href);\n      var js = d.createElement(s); js.charset=\"UTF-8\"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);\n    })(window, document, 'script', 'cloud.roistat.com', '411612168b52d254eb92032b2f944dd1');\n  </script>\n        <!-- End Roistat -->\n        <div id=\"app\" ></div>\n        <div id=\"react-select-portal\" class=\"ignore-react-onclickoutside\"></div>\n        <script type=\"text/javascript\" src=\"/runtime.10a2ddaa.js\"></script>\n        <script type=\"text/javascript\" src=\"/vendor.10a2ddaa.js\"></script>\n        <script type=\"text/javascript\" src=\"/main.10a2ddaa.js\"></script>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "список работ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+					}
+				],
+				"url": {
+					"raw": "https://api.gectaro.com/v1/projects/84017/tasks",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"projects",
+						"84017",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "получить фотоотчет по выполненным работам",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+					}
+				],
+				"url": {
+					"raw": "https://api.gectaro.com/v1/projects/84017/tasks/2656428/photos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"projects",
+						"84017",
+						"tasks",
+						"2656428",
+						"photos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "получить комментарии",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+					}
+				],
+				"url": {
+					"raw": "https://api.gectaro.com/v1/resources/12534522/comments",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"resources",
+						"12534522",
+						"comments"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "-created_at",
+							"disabled": true
+						},
+						{
+							"key": "expand",
+							"value": "user",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "получить данные работы",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer AgD8Sg2ll4lw4DllDbETAv4gjS3_FwlM"
+					}
+				],
+				"url": {
+					"raw": "https://api.gectaro.com/v1/projects/84017/2656434",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"projects",
+						"84017",
+						"2656434"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
